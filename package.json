@@ -1,6 +1,6 @@
 {
   "name": "todo-expiry",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Fail CI when TODO/FIXME comments with due dates expire.",
   "type": "module",
   "bin": {

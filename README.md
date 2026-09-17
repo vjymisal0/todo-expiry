@@ -43,3 +43,15 @@ Normal TODO scanners list every TODO. This tool only cares about promises with d
 ## License
 
 MIT
+
+## API
+
+The `todo-expiry` CLI finds dated `TODO` and `FIXME` comments and fails when their due dates have passed.
+
+```sh
+npx todo-expiry test --today 2026-01-01
+```
+
+## Limitations
+
+It reports comment deadlines; it does not track tickets or project-management systems.
