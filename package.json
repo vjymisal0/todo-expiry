@@ -1,21 +1,40 @@
 {
   "name": "todo-expiry",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fail CI when TODO/FIXME comments with due dates expire.",
   "type": "module",
   "bin": {
     "todo-expiry": "bin/todo-expiry.js"
   },
-  "files": ["bin", "README.md", "LICENSE"],
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "test": "node --test",
     "check": "node bin/todo-expiry.js test --today 2000-01-01"
   },
-  "keywords": ["todo", "fixme", "technical-debt", "ci", "comments", "deadline"],
+  "keywords": [
+    "todo",
+    "fixme",
+    "technical-debt",
+    "ci",
+    "comments",
+    "deadline"
+  ],
   "author": "Vijay Misal",
   "license": "MIT",
-  "repository": {"type": "git", "url": "git+https://github.com/vjymisal0/todo-expiry.git"},
-  "bugs": {"url": "https://github.com/vjymisal0/todo-expiry/issues"},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjymisal0/todo-expiry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vjymisal0/todo-expiry/issues"
+  },
   "homepage": "https://github.com/vjymisal0/todo-expiry#readme",
-  "engines": {"node": ">=18"}
+  "engines": {
+    "node": ">=18"
+  }
 }
